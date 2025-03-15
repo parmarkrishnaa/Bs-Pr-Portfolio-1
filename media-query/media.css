@@ -1,0 +1,28 @@
+@media (max-width:575px) {
+    .main-screen-xs {
+        width: 100%;
+    }
+
+    /* offcanvas header start */
+    
+
+    /* offcanvas header end */
+}
+@media (max-width:767px) {
+    .main-screen-md {
+        width: 100%;
+    }
+
+    /* offcanvas header start */
+    
+    
+
+    /* offcanvas header end */
+}
+
+@media (min-width:992px) {
+    .main-screen-lg {
+        width: calc(100% - 300px);
+        margin-left: auto;
+    }
+}
