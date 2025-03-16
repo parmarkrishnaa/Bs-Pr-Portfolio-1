@@ -14,13 +14,14 @@
 
 <body>
 
-    <!-- OFF-CANVAS HEADER START -->
+    <!-- offcanvas header start  -->
+
     <div class="offcanvas offcanvas-start d-block d-lg-none" id="offcanvas1" aria-labelledby="offcanvasLabel"
         style="width: 300px;">
-        <div class="offcanvas-body pt-0 ps-0 w-100 vh-100 mb-0">
-            <header class="position-fixed top-0 bottom-0 start-0 overflow-y-scroll of-y-scroll">
-                <div class="img my-3">
-                    <img src="./images/profile-img.jpg" class="rounded-circle mx-auto" alt="pf-img">
+        <div class="offcanvas-body pt-0 ps-0 pb-0 w-100 vh-100 mb-0">
+            <header style="background-color: black;">
+                <div class="img">
+                    <img src="./images/profile-img.jpg" class="rounded-circle mx-auto img-fluid" alt="pf-img">
                 </div>
                 <h2 class="text-white text-center fs-4 fw-bold">Alex Smith</h2>
                 <div class="icons">
@@ -117,10 +118,12 @@
             </header>
         </div>
     </div>
-    <!-- OFF-CANVAS HEADER END -->
 
-    <!-- HEADER  START -->
-    <header class="position-fixed top-0 bottom-0 start-0 overflow-y-scroll of-y-scroll">
+    <!-- offcanvas header end -->
+
+    <!-- header  start -->
+
+    <header class="position-fixed top-0 bottom-0 start-0 overflow-y-scroll of-y-scroll d-none d-lg-block">
         <div class="img my-3">
             <img src="./images/profile-img.jpg" class="rounded-circle mx-auto" alt="pf-img">
         </div>
@@ -217,11 +220,13 @@
             </ul>
         </nav>
     </header>
-    <!-- HEADER  END -->
 
-    <!-- MAIN  START -->
+    <!-- header  end -->
+
+    <!-- main  start -->
+
     <main class="main-screen-xs main-screen-md main-screen-lg" data-bs-spy="scroll" data-bs-target="#navbar"
-        >
+        data-bs-scroll="true">
         <div class="position-fixed end-0 top-0 me-5 mt-3 d-block d-lg-none">
             <button class="btn btn-primary float-end" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvas1">
@@ -1153,28 +1158,30 @@
 
         <!-- Contact Section End -->
 
+        <!-- footer section Start  -->
+
+        <footer class="border-top border-dark-subtle py-4">
+            <div class="container">
+                <div class="copy-right text-center">
+                    <p class="mb-0"> © Copyright <strong class="px-1">iPortfolio</strong> All Rights Reserved</p>
+                </div>
+                <div class="designed-by text-center">
+                    <p class="mb-0">Designed by
+                        <a href="https://bootstrapmade.com/" target="_blank"
+                            class="text-decoration-none d-inline-block">BootstrapMade</a>
+                        Distributed by
+                        <a href="https://themewagon.com" target="_blank"
+                            class="text-decoration-none d-inline-block">ThemeWagon</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- footer section end  -->
+
     </main>
 
-    <!-- footer Section Start  -->
-
-    <footer class="border-top border-dark-subtle py-4">
-        <div class="container">
-            <div class="copy-right text-center">
-                <p class="mb-0"> © Copyright <strong class="px-1">iPortfolio</strong> All Rights Reserved</p>
-            </div>
-            <div class="designed-by text-center">
-                <p class="mb-0">Designed by
-                    <a href="https://bootstrapmade.com/" target="_blank"
-                        class="text-decoration-none d-inline-block">BootstrapMade</a>
-                    Distributed by
-                    <a href="https://themewagon.com" target="_blank"
-                        class="text-decoration-none d-inline-block">ThemeWagon</a>
-                </p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- footer Section end  -->
+    <!-- main  end -->
 
     <!-- APP - 1  MODAL -->
 
